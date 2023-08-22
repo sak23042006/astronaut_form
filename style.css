@@ -1,0 +1,31 @@
+body{
+    background-image: url(skymoon.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#ast-1{
+    width: 500px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    animation:floating 8s infinite;
+}
+#ast-2{
+    width: 500px;
+    animation: floating 8s infinite;
+    position: absolute;
+    top: 43px;
+    left: 240px;
+
+
+}
+@keyframes floating {
+    0%{
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(50px)
+    }
+}
